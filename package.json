@@ -1,0 +1,10 @@
+{
+  "name": "tim-faturas-local",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Consulta local de faturas TIM e mensagens para WhatsApp",
+  "engines": { "node": ">=22" },
+  "scripts": { "start": "node src/cli.js", "test": "node --test" },
+  "dependencies": { "playwright": "1.64.1", "pdfjs-dist": "5.4.624" }
+}
